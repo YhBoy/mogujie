@@ -10,9 +10,9 @@
 	</div>
 </template>
 <script>
-
-	import DetailBanner from "../detailbanner/detailbanner"
 	import DetailBottomNav from "../detailbottomnav/detailbottomnav"
+	import DetailBanner from "../detailbanner/detailbanner"
+	
 	import FastBuy from "../fastbuy/fastbuy"
 	import DetailSell from "../sell/sell"
 	import DetailNew from "../new/new"

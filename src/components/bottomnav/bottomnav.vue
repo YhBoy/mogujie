@@ -25,15 +25,16 @@
 	export default{
 		name: "BottomNav",
 		
+		
+		methods : {
+			juige () {
+				this.$emit("change",false)
+			}
+		},
 		data(){
 			return{
 				index : 0,
 				listShow : true
-			}
-		},
-		methods : {
-			juige () {
-				this.$emit("change",false)
 			}
 		}
 	}
